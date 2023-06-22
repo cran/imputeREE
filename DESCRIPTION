@@ -1,28 +1,31 @@
 Package: imputeREE
-Title: Impute Missing Rare Earth Element Data Using a Lattice-Strain
-        Derived Method
-Version: 0.0.1
+Title: Impute Missing Rare Earth Element Data in Zircon
+Version: 0.0.5
 Authors@R: 
     person(given = "Carlos",
            family = "Carrasco Godoy",
            role = c("aut", "cre"),
-           email = c("carlos.Carrasco@anu.edu.au", "ccarrasco@outlook.cl"),
+           email = c("carlos.carrasco@anu.edu.au", "ccarrasco@outlook.cl"),
            comment = c(ORCID = "0000-0003-4914-186X"))
-Description: Set of functions that fit a linear regression to calculate missing
-    Rare Earth Element (REE) in zircon based on a method derived from the lattice 
-    strain theory of Blundy and Wood (1994)<doi:10.1038/372452a0>.
+Description: Set of functions to impute missing rare earth data, calculate La 
+    and Pr concentrations and Ce anomalies in zircons based on the
+    Chondrite-Onuma and Chondrite-Lattice of Carrasco-Godoy and 
+    Campbell (2023) <doi:10.1007/s00410-023-02025-9> and the Logarithmic regression from  
+    Zhong et al. (2019) <doi:10.1007/s00710-019-00682-y>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3 janitor, tidyselect,
 Imports: tibble, dplyr, magrittr, tidyr, stringr, purrr, rlang, broom
 Depends: R (>= 4.0)
+URL: https://github.com/cicarrascog/imputeREE
+BugReports: https://github.com/cicarrascog/imputeREE/issues
 NeedsCompilation: no
-Packaged: 2022-07-18 04:56:34 UTC; ccarr
+Packaged: 2023-06-22 01:00:06 UTC; ccarr
 Author: Carlos Carrasco Godoy [aut, cre]
     (<https://orcid.org/0000-0003-4914-186X>)
-Maintainer: Carlos Carrasco Godoy <carlos.Carrasco@anu.edu.au>
+Maintainer: Carlos Carrasco Godoy <carlos.carrasco@anu.edu.au>
 Repository: CRAN
-Date/Publication: 2022-07-19 14:50:01 UTC
+Date/Publication: 2023-06-22 07:20:02 UTC
